@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doikota/js_hello.git"
+    "url": "git+https://github.com/doikota/js_sonar.git"
   },
   "bugs": {
-    "url": "https://github.com/doikota/js_hello/issues"
+    "url": "https://github.com/doikota/js_sonar/issues"
   },
-  "homepage": "https://github.com/doikota/js_hello#readme"
+  "homepage": "https://github.com/doikota/js_sonar.#readme"
 }
