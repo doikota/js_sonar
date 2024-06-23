@@ -8,9 +8,9 @@ jestを導入します。
 
 package.jsonファイルの中のscriptsセクションにて、jestをテスト実施時のフレームワークに指定します。
 >package.json
->  "scripts": {
->    "test": "jest"
->  },
+> > "scripts": {
+> >   "test": "jest"
+> > },
 
 テストを実行します。
 > npm run test
