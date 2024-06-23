@@ -7,10 +7,10 @@ jestを導入します。
 > npm install --save-dev jest
 
 package.jsonファイルの中のscriptsセクションにて、jestをテスト実施時のフレームワークに指定します。
-package.json
-  "scripts": {
-    "test": "jest"
-  },
+>package.json
+>  "scripts": {
+>    "test": "jest"
+>  },
 
 テストを実行します。
 > npm run test
