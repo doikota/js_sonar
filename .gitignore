@@ -1,0 +1,9 @@
+# Project files
+node_modules/
+
+# Build output
+.scannerwork/
+coverage/*
+
+# Log
+log/*
