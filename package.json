@@ -10,5 +10,16 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doikota/js_hello.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doikota/js_hello/issues"
+  },
+  "homepage": "https://github.com/doikota/js_hello#readme"
 }
