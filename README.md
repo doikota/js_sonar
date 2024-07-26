@@ -1,33 +1,46 @@
-JavaScriptでSonarQubeを使うサンプルです。
+# JavaScript で SonarQube を使うサンプルです。
 
-git cloneした後に、nodeの環境を準備します。
+### git clone した後に、node の環境を準備します。
+
 ```
 npm init
 ```
 
-jestを導入します。
+### JavaScript のプログラムを実行します。
+
+```
+node src/index.js
+```
+
+### jest を導入します。
+
 ```
 npm install --save-dev jest
 ```
 
-package.jsonファイルの中のscriptsセクションにて、jestをテスト実施時のフレームワークに指定します。
+### package.json ファイルの中の scripts セクションにて、jest をテスト実施時のフレームワークに指定します。
+
 ```json:package.json
 "scripts": {
   "test": "jest"
 },
 ```
 
-テストを実行します。
+### テストを実行します。
+
 ```
 npm run test
 ```
 
-カバレッジを表示します。
+### カバレッジを表示します。
+
 ```
 npm run test -- --coverage
 ```
 
-SonarQubeにテスト結果とカバレッジレポートを送付します。
+### SonarQube にテスト結果とカバレッジレポートを送付します。
+
 ```
 sonar-scanner
+http://localhost:9000/
 ```
