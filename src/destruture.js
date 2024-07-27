@@ -37,13 +37,13 @@ console.log(rest);
 
 // 配列の分割代入
 // 配列の値には名前がないので配列の並び順通りに代入されるため、secondには'Kotaro'が代入される
-const names = ['Kotaro', 'Akiko', 'Hinako', 'Yuiko'];
+const names = ['Kotaro', 'Kinkichi', 'Gaskichi', 'Yanyan'];
 const [second, first, third] = names;
 console.log(first, second, third);
 
-// 配列の部分展開 (男性 [女性])
-const [male, ...female] = names;
-console.log(male, female);
+// 配列の部分展開 (本名 [あだ名])
+const [realname, ...nickname] = names;
+console.log(realname, nickname);
 
 // オブジェクト配列の展開
 const users = [
@@ -54,10 +54,10 @@ const users = [
     age: 51,
   },
   {
-    name: 'Akiko Doi',
-    email: 'doiakko@gmail.com',
-    sex: 'female',
-    age: 58,
+    name: 'Kinkichi Gaskichi',
+    email: 'kingas@mail.xxx',
+    sex: 'unknown',
+    age: 3,
   },
 ];
 for (const { name: myname, age: myage } of users) {
@@ -94,13 +94,13 @@ const persons = [
     },
   },
   {
-    name: 'Akiko Doi',
-    email: 'doiakko@gmail.com',
-    sex: 'female',
-    age: 58,
+    name: 'Kinkichi Gaskichi',
+    email: 'kingas@mail.xxx',
+    sex: 'unknown',
+    age: 3,
     from: {
-      city: 'Sapporo',
-      zip: '111',
+      city: 'Chirol',
+      zip: '999',
     },
   },
 ];
