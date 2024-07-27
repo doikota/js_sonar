@@ -6,7 +6,7 @@
  */
 
 const user = {
-  name: 'Kotaro Doi',
+  name: 'Kotaro',
   email: 'doikota@gmail.com',
   sex: 'male',
   age: 51,
@@ -48,7 +48,7 @@ console.log(realname, nickname);
 // オブジェクト配列の展開
 const users = [
   {
-    name: 'Kotaro Doi', 
+    name: 'Kotaro', 
     email: 'doikota@gmail.com',
     sex: 'male',
     age: 51,
@@ -66,7 +66,7 @@ for (const { name: myname, age: myage } of users) {
 
 // ネストしたオブジェクトの展開 { address: { city } }としてaddress.cityが取り出せる
 const person = {
-  name: 'Kotaro Doi',
+  name: 'Kotaro',
   email: 'doikota@gmail.com',
   sex: 'male',
   age: 51,
@@ -84,7 +84,7 @@ console.log(`${name2} lives in ${city}`);
 // 練習問題：ネストしたオブジェクトの配列の展開
 const persons = [
   {
-    name: 'Kotaro Doi',
+    name: 'Kotaro',
     email: 'doikota@gmail.com',
     sex: 'male',
     age: 51,
@@ -94,8 +94,8 @@ const persons = [
     },
   },
   {
-    name: 'Kinkichi Gaskichi',
-    email: 'kingas@mail.xxx',
+    name: 'Kinkichi',
+    email: 'kinkichi@mail.xxx',
     sex: 'unknown',
     age: 3,
     from: {
